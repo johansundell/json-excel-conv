@@ -1,14 +1,6 @@
 package main
 
-import (
-	"encoding/json"
-	"io/ioutil"
-	"log"
-	"os"
-	"path/filepath"
-)
-
-type appSettings struct {
+/*type appSettings struct {
 	Debug bool   `json:"debug"`
 	Port  string `json:"port"`
 }
@@ -34,4 +26,4 @@ func init() {
 	if err := json.Unmarshal(dat, &settings); err != nil {
 		log.Fatal(err)
 	}
-}
+}*/
