@@ -72,5 +72,5 @@ func main() {
 }
 
 func defaultHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "<html><body>We are up and running "+nameOfService+" on port 8080 ;)</body></html>")
+	fmt.Fprint(w, "<html><body>We are up and running test "+nameOfService+" on port 8080 ;)</body></html>")
 }
